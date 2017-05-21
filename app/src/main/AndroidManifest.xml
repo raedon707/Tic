@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abhishekpathak.tic">
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Tic Tac Toe"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+        <activity
+            android:name=".splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label=" "
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Game"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".help"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".information"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Game2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".g"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".medium_select"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".hard_mode"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <TextView
+        android:id="@+id/yourScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="17dp"
+        android:layout_above="@+id/totalGamePlayed"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/drawGames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/totalGamePlayed"
+        android:layout_alignLeft="@+id/totalGamePlayed"
+        android:layout_alignStart="@+id/totalGamePlayed"
+        android:layout_marginTop="17dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/totalGamePlayed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/yourScore"
+        android:layout_alignStart="@+id/yourScore"
+        android:gravity="center"/>
+</RelativeLayout>

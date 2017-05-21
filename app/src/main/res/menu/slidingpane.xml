@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_item_1" android:title="Share" android:icon="@mipmap/ic_share_black_18dp" />
+    <item android:id="@+id/menu_item_2" android:title="Contact US" android:icon="@mipmap/ic_perm_contact_calendar_black_18dp"/>
+    <item android:id="@+id/menu_item_3" android:title="Rate Us On Play Store" android:icon="@mipmap/ic_star_rate_black_18dp"/>
+</menu>
